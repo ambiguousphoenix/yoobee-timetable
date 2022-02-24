@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:background="#474747" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="70dp">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <LinearLayout android:orientation="vertical" android:layout_width="66dp" android:layout_height="match_parent">
+                            <RelativeLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp">
+                                <RelativeLayout android:background="#ffffff" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginLeft="46dp"/>
+                            </RelativeLayout>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="JAN" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="64dp" android:layout_height="match_parent">
+                            <RelativeLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp">
+                                <RelativeLayout android:background="#ffffff" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginLeft="12dp"/>
+                            </RelativeLayout>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FEB" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="64dp" android:layout_height="match_parent">
+                            <RelativeLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp"/>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MAR" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="64dp" android:layout_height="match_parent">
+                            <RelativeLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp">
+                                <RelativeLayout android:background="#ffffff" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginLeft="28dp"/>
+                                <RelativeLayout android:background="#ffffff" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginLeft="34dp"/>
+                                <RelativeLayout android:background="#ffffff" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginLeft="36dp"/>
+                                <RelativeLayout android:background="#ffffff" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginLeft="50dp"/>
+                            </RelativeLayout>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="APR" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="64dp" android:layout_height="match_parent">
+                            <RelativeLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp"/>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MAY" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="64dp" android:layout_height="match_parent">
+                            <RelativeLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp">
+                                <RelativeLayout android:background="#ffffff" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginLeft="4dp"/>
+                                <RelativeLayout android:background="#ffffff" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginLeft="10dp"/>
+                            </RelativeLayout>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="JUN" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="64dp" android:layout_height="match_parent">
+                            <RelativeLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp">
+                                <RelativeLayout android:background="#ffffff" android:layout_width="10dp" android:layout_height="match_parent" android:layout_marginLeft="34dp"/>
+                            </RelativeLayout>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="JUL" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="64dp" android:layout_height="match_parent">
+                            <RelativeLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp"/>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AUG" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="64dp" android:layout_height="match_parent">
+                            <RelativeLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp"/>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SEP" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="64dp" android:layout_height="match_parent">
+                            <RelativeLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp">
+                                <RelativeLayout android:background="#ffffff" android:layout_width="10dp" android:layout_height="match_parent" android:layout_marginLeft="4dp"/>
+                                <RelativeLayout android:background="#ffffff" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginLeft="40dp"/>
+                                <RelativeLayout android:background="#ffffff" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginLeft="46dp"/>
+                            </RelativeLayout>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OCT" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="64dp" android:layout_height="match_parent">
+                            <LinearLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp"/>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NOV" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="66dp" android:layout_height="match_parent">
+                            <LinearLayout android:background="#666666" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:layout_marginRight="4dp"/>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DEC" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+            <RelativeLayout android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/arrow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:layout_marginRight="16dp" android:src="@drawable/arrow_down_dark" android:layout_alignParentRight="true"/>
+                <include android:id="@+id/january" android:visibility="visible" layout="@layout/january"/>
+                <include android:id="@+id/january_detail" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/january" layout="@layout/january_detail"/>
+                <RelativeLayout android:id="@+id/january_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/january_detail"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/arrow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:layout_marginRight="16dp" android:src="@drawable/arrow_down_dark" android:layout_alignParentRight="true"/>
+                <include android:id="@+id/february" android:visibility="visible" layout="@layout/february"/>
+                <include android:id="@+id/february_detail" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/february" layout="@layout/february_detail"/>
+                <RelativeLayout android:id="@+id/february_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/february_detail"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/march" android:visibility="visible" layout="@layout/march_dark"/>
+                <RelativeLayout android:id="@+id/march_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/march"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/arrow4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:layout_marginRight="16dp" android:src="@drawable/arrow_down_dark" android:layout_alignParentRight="true"/>
+                <include android:id="@+id/april" android:visibility="visible" layout="@layout/april"/>
+                <include android:id="@+id/april_detail" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/april" layout="@layout/april_detail"/>
+                <RelativeLayout android:id="@+id/april_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/april_detail"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/may" android:visibility="visible" layout="@layout/may_dark"/>
+                <RelativeLayout android:id="@+id/may_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/may"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/arrow6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:layout_marginRight="16dp" android:src="@drawable/arrow_down_dark" android:layout_alignParentRight="true"/>
+                <include android:id="@+id/june" android:visibility="visible" layout="@layout/june"/>
+                <include android:id="@+id/june_detail" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/june" layout="@layout/june_detail"/>
+                <RelativeLayout android:id="@+id/june_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/june_detail"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/arrow7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:layout_marginRight="16dp" android:src="@drawable/arrow_down_dark" android:layout_alignParentRight="true"/>
+                <include android:id="@+id/july" android:visibility="visible" layout="@layout/july"/>
+                <include android:id="@+id/july_detail" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/july" layout="@layout/july_detail"/>
+                <RelativeLayout android:id="@+id/july_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/july_detail"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/august" android:visibility="visible" layout="@layout/august_dark"/>
+                <RelativeLayout android:id="@+id/august_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/august"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/september" android:visibility="visible" layout="@layout/september_dark"/>
+                <RelativeLayout android:id="@+id/september_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/september"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/arrow10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:layout_marginRight="16dp" android:src="@drawable/arrow_down_dark" android:layout_alignParentRight="true"/>
+                <include android:id="@+id/october" android:visibility="visible" layout="@layout/october"/>
+                <include android:id="@+id/october_detail" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/october" layout="@layout/october_detail"/>
+                <RelativeLayout android:id="@+id/october_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/october_detail"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/november" android:visibility="visible" layout="@layout/november_dark"/>
+                <RelativeLayout android:id="@+id/november_divider" android:background="#494949" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/november"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/december" android:visibility="visible" layout="@layout/december_dark"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

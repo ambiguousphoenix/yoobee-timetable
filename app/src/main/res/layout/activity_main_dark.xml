@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="25sp" android:textColor="#ffffff" android:id="@+id/Monday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:text="Monday"/>
+            <HorizontalScrollView android:id="@+id/Monday2" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="225dp" android:layout_below="@+id/Monday">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RelativeLayout android:background="@drawable/rectangle" android:layout_width="300dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:elevation="5dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Theory 2" android:layout_centerInParent="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="6dp" android:text="9:00 am" android:layout_alignParentBottom="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="6dp" android:text="11:00 am" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:background="@drawable/rectangle" android:layout_width="300dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:elevation="5dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Studio 201" android:layout_centerInParent="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="6dp" android:text="12:00 pm" android:layout_alignParentBottom="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="6dp" android:text="3:30 pm" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView android:textSize="25sp" android:textColor="#ffffff" android:id="@+id/Tuesday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:text="Tuesday" android:layout_below="@+id/Monday2"/>
+            <HorizontalScrollView android:id="@+id/Tuesday2" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="225dp" android:layout_below="@+id/Tuesday">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RelativeLayout android:background="@drawable/rectangle_grey_dark" android:layout_width="300dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:elevation="5dp"/>
+                    <RelativeLayout android:background="@drawable/rectangle" android:layout_width="300dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:elevation="5dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Studio 201" android:layout_centerInParent="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="6dp" android:text="12:00 pm" android:layout_alignParentBottom="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="6dp" android:text="3:30 pm" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView android:textSize="25sp" android:textColor="#ffffff" android:id="@+id/Wednesday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:text="Wednesday" android:layout_below="@+id/Tuesday2"/>
+            <HorizontalScrollView android:id="@+id/Wednesday2" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="225dp" android:layout_below="@+id/Wednesday">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RelativeLayout android:background="@drawable/rectangle_grey_dark" android:layout_width="300dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:elevation="5dp"/>
+                    <RelativeLayout android:background="@drawable/rectangle" android:layout_width="300dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:elevation="5dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Studio 201" android:layout_centerInParent="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="6dp" android:text="12:45 pm" android:layout_alignParentBottom="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="6dp" android:text="3:30 pm" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView android:textSize="25sp" android:textColor="#ffffff" android:id="@+id/Thursday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:text="Thursday" android:layout_below="@+id/Wednesday2"/>
+            <HorizontalScrollView android:id="@+id/Thursday2" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="225dp" android:layout_below="@+id/Thursday">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RelativeLayout android:background="@drawable/rectangle_grey_dark" android:layout_width="300dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:elevation="5dp"/>
+                    <RelativeLayout android:background="@drawable/rectangle" android:layout_width="300dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:elevation="5dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Studio 201" android:layout_centerInParent="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="6dp" android:text="12:00 pm" android:layout_alignParentBottom="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="6dp" android:text="3:30 pm" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView android:textSize="25sp" android:textColor="#ffffff" android:id="@+id/Friday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:text="Friday" android:layout_below="@+id/Thursday2"/>
+            <HorizontalScrollView android:id="@+id/Friday2" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="225dp" android:layout_below="@+id/Friday">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RelativeLayout android:background="@drawable/rectangle_grey_dark" android:layout_width="300dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:elevation="5dp"/>
+                    <RelativeLayout android:background="@drawable/rectangle" android:layout_width="300dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:elevation="5dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Studio 201" android:layout_centerInParent="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="6dp" android:text="12:00 pm" android:layout_alignParentBottom="true"/>
+                        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="6dp" android:text="3:30 pm" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

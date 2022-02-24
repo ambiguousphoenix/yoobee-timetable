@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/contact" android:id="@+id/contact" android:title="Contact information" app:showAsAction="always"/>
+    <item android:icon="@drawable/holidays" android:id="@+id/holidays" android:title="Holidays" app:showAsAction="always"/>
+    <item android:id="@+id/yoobee" android:title="Yoobee website" app:showAsAction="never"/>
+    <item android:id="@+id/acg" android:title="MyACG website" app:showAsAction="never"/>
+    <item android:id="@+id/facebook_class" android:title="Class group" app:showAsAction="never"/>
+    <item android:id="@+id/facebook_media" android:title="Media group" app:showAsAction="never"/>
+    <item android:id="@+id/settings" android:title="Settings" app:showAsAction="never"/>
+</menu>

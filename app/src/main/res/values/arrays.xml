@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="layout">
+        <item>Tiles</item>
+        <item>List</item>
+        <item>Schedule</item>
+    </array>
+    <array name="theme">
+        <item>Yoobee</item>
+        <item>Nexus</item>
+        <item>Pixel</item>
+    </array>
+</resources>

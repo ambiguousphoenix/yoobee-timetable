@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="Appearance">
+        <ListPreference android:entries="@array/theme" android:title="Theme" android:key="theme" android:summary="%s" android:defaultValue="Yoobee" android:dialogTitle="Theme" android:entryValues="@array/theme"/>
+        <SwitchPreference android:title="Dark mode" android:key="dark" android:summary="Enable for easier reading in low-light environments" android:defaultValue="false"/>
+        <ListPreference android:entries="@array/layout" android:title="Layout" android:key="layout" android:summary="%s" android:defaultValue="Tiles" android:dialogTitle="Layout" android:entryValues="@array/layout"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Shortcuts">
+        <CheckBoxPreference android:title="Yoobee website" android:key="yoobee" android:summary="Show the Yoobee website in options menu" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="MyACG website" android:key="acg" android:summary="Show the MyACG website in options menu" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="Class group" android:key="facebook_class" android:summary="Show the class Facebook group in options menu" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="Media group" android:key="facebook_media" android:summary="Show the class Facebook media group in options menu" android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Miscellaneous">
+        <CheckBoxPreference android:enabled="true" android:title="Use Android WebView" android:key="webview" android:summary="Disable to use the default browser when opening links" android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

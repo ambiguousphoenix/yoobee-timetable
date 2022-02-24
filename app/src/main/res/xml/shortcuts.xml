@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <shortcut
+        android:shortcutId="facebook"
+        android:icon="@mipmap/ic_shortcut_group"
+        android:shortcutShortLabel="@string/shortcut_facebook"
+        android:enabled="true">
+        <intent
+            android:targetPackage="com.luke.yoobeetimetable"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.luke.yoobeetimetable.Facebook"/>
+        <categories
+            android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="holidays"
+        android:icon="@mipmap/ic_shortcut_event"
+        android:shortcutShortLabel="@string/shortcut_holidays"
+        android:enabled="true">
+        <intent
+            android:targetPackage="com.luke.yoobeetimetable"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.luke.yoobeetimetable.Holidays"/>
+        <categories
+            android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="contact"
+        android:icon="@mipmap/ic_shortcut_business"
+        android:shortcutShortLabel="@string/shortcut_contact"
+        android:enabled="true">
+        <intent
+            android:targetPackage="com.luke.yoobeetimetable"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.luke.yoobeetimetable.Contact"/>
+        <categories
+            android:name="android.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>
